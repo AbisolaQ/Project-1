@@ -20,7 +20,8 @@ We open our terminal and go to the location of the previously downloaded PEM fil
 
 We connect to the instance from our ubuntu terminal using the command:
 
->```ssh -i dybran-ec2.pem ubuntu@44.210.117.5```
+> git add .
+> ```ssh -i dybran-ec2.pem ubuntu@44.210.117.5```
 
 [connecting to the instance](./images/anot.PNG)
 
@@ -40,7 +41,7 @@ Next we install the web server(Apache HTTP server) by running the command:
 
 > ```sudo apt install apache2```
 
-[apache server installation](./iamges/install-apache.PNG)
+[apache server installation](./images/install-apache.PNG)
 
 To check if the webserver  is running, we use the command:
 
