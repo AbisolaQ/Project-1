@@ -66,9 +66,9 @@ We install the Mysql server by running the command:
 
 We log into the mysql by running the command:
 
-> ```sudo mysql -u root -p```
+> ```sudo mysql```
 
-[mysql log in](./images/mysql-log-in)
+[mysql log in](./images/sudo-mysql.PNG)
 
 to set password as "PassWord.1" for root user, we run the command:
 
