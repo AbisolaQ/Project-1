@@ -20,7 +20,6 @@ We open our terminal and go to the location of the previously downloaded PEM fil
 
 We connect to the instance from our ubuntu terminal using the command:
 
-> git add .
 > ```ssh -i dybran-ec2.pem ubuntu@44.210.117.5```
 
 [connecting to the instance](./images/anot.PNG)
