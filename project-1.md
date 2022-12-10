@@ -8,53 +8,55 @@ To do this we need to do the following:
 * we select “t2.micro(free tier eligible)” 
 * then go to the security group and select “existing security group” review and launch.
 
- [how to create an aws free tier account](https://www.youtube.com/watch?v=xxKuB9kJoYM&list=PLtPuNR8I4TvkwU7Zu0l0G_uwtSUXLckvh&index=7)
+How to create an aws free tier account. Click [here](https://www.youtube.com/watch?v=xxKuB9kJoYM&list=PLtPuNR8I4TvkwU7Zu0l0G_uwtSUXLckvh&index=7)
 
 This launches us into the instance as shown in the screenshot:
 
-[aws instance](./images/instance-launch.PNG)
+[image](./images/instance-launch.PNG)
 
 We open our terminal and go to the location of the previously downloaded PEM file:
 
-[locate PEM file](./images/cd-downloads-to-locate-the-pem.PNG)
+[Image](./images/cd-downloads-to-locate-the-pem.PNG)
+
+To know how to download PEM File from __AWS__. Click [HERE](https://intellipaat.com/community/52119/how-to-download-a-pem-file-from-aws).
 
 We connect to the instance from our ubuntu terminal using the command:
 
-> ```ssh -i dybran-ec2.pem ubuntu@44.210.117.5```
+```$ ssh -i dybran-ec2.pem ubuntu@44.210.117.5```
 
-[connecting to the instance](./images/anot.PNG)
+[Image](./images/anot.PNG)
 
 This automatically connects to the instance
 
-[instance connected](./images/b.PNG)
+[Image](./images/b.PNG)
 
 __APACHE WEB SERVER SETUP__
 
 To install the Apache web server, we first update the software packages in the software package manager by running the command:
 
-> ```sudo apt update```
+```$ sudo apt update```
 
-[updating package manager](./images/c.PNG)
+[Image](./images/c.PNG)
 
 Next we install the web server(Apache HTTP server) by running the command:
 
-> ```sudo apt install apache2```
+```$ sudo apt install apache2```
 
-[apache server installation](./images/install-apache.PNG)
+[Image](./images/install-apache.PNG)
 
 To check if the webserver  is running, we use the command:
 
-> ```sudo systemctl status apache2```
+```$ sudo systemctl status apache2```
 
-[apache status](./images/apache-status.PNG)
+[Image](./images/apache-status.PNG)
 
 We then go to our instance and set the inbound rules and save
 
-[Inbound rules set up](./images/inbound-rules.PNG)
+[Image](./images/inbound-rules.PNG)
 
 We copy the URL and paste on a web browser to check if it is working:
 
-[checking apache URL](./images/checking-apache-url.PNG)
+[Image](./images/checking-apache-url.PNG)
 
 __MYSQL DATABASE SERVER SET UP__
 
