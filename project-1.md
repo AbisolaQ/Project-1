@@ -12,7 +12,7 @@ How to create an aws free tier account. Click [here](https://www.youtube.com/wat
 
 This launches us into the instance as shown in the screenshot:
 
-[image](./images/instance-launch.PNG)
+[image](./images/inst.PNG)
 
 We open our terminal and go to the location of the previously downloaded PEM file:
 
