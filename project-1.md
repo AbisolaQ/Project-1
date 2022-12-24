@@ -42,7 +42,7 @@ Next we install the web server(Apache HTTP server) by running the command:
 
 ```$ sudo apt install apache2```
 
-![Image](./images/install-apache.PNG)
+![Image](./images/install-apache2.PNG)
 
 To check if the webserver  is running, we use the command:
 
@@ -90,7 +90,7 @@ Logged into mysql using my new password by running the command:
 
 ```$ sudo mysql -p```
 
-[Image](./images/ac.PNG)
+![Image](./images/ac.PNG)
 
 Then __“exit”__.
 
