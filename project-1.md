@@ -1,7 +1,6 @@
 ## LAMP STACK IMPLEMENTATION(PROJECT 1)
 
-We are setting up a LAMP STACK using EC2 as our virtual server.
-To do this we need to do the following:
+We are setting up a LAMP STACK using EC2, to do this we need to do the following:
 
 * create an account on [AWS](https://aws.amazon.com/). 
 * we create an instance (virtual machine) by selecting __“ubuntu server 20.04 LTS”__ from Amazon Machine Image(AMI)(free tier). 
